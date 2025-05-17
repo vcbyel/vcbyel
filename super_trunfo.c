@@ -62,7 +62,7 @@ printf ("Digite seu Estado:");
     printf("Densidade populacional: %f\n.", densidadepop);
     printf("Pib Percapita: %f\n.", pibpercapita);
     
-    //------------------------ separação segundo codigo-----------------------------------
+    //------------------------ separação segundo codigo------------------------------------
     
     //declarando variaveis segunda carta
     char estado2[100];
