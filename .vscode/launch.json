@@ -1,0 +1,76 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        #include <stdio.h>
+
+// desafio super trunfo - Países
+// Nivel novato - Cadastro das cartas
+// teste Gabriel
+//Irei usar scanf e gets para solicitar dados e printf para imprimir
+
+int main(){
+
+// como estou aprendendo irei adicionar variaveis em linhas separadas
+
+char Estado[100];
+char Código[100];
+char Cidade[100];
+int População;
+float Área;
+float PIB;
+int Número;
+
+// me bati um pouco por causa desse & comercial
+
+printf ("Digite o seu Estado:");
+gets(&Estado); // estou usando esse comando para capturar a linha
+//esse comando faz com que eu consiga capturar mais de uma palavra
+//porque tem cidades e estador que tem 2 ou mais palavras
+//Ex. cidade: Presidente Prudente 
+//EX. Estado: São Paulo
+
+printf ("Digite o Código da Carta:");
+scanf("%s", &Código);// segue padrão para capturar e imprimir dados!
+
+
+printf ("Nome da Cidade:");
+gets(&Cidade);// aqui fiz a mesma coisa que o estado!
+//esse comando funciona bem quando precisa capturar linhas que vão conter mais de 1 palavra
+
+
+printf ("População:");
+scanf("%d", &População);// padrão
+
+printf ("Área em KM²:");
+scanf("%f", &Área);//padrão
+
+printf ("PIB:");
+scanf("%f", &PIB);//padrão
+
+printf ("Número de Pontos Turísticos:");
+scanf("%d", &Número), //padrão
+
+//agora vem a parte que vamos fazer imprimir os dados!
+
+printf("%s\n",Estado);
+printf("%s\n",Código);
+printf("%s\n",Cidade);
+printf("%d\n",População);
+printf("%f\n",Área);
+printf("%f\n",PIB);
+printf("%d\n",Número);
+
+
+
+
+}
+
+
+
+    ]
+}
