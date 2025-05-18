@@ -6,7 +6,7 @@ int main() {
 char estado[100];
 char codigo[100];
 char cidade[100];
-int populacao;
+unsigned int populacao;
 float area;
 float pib;
 int numero;
@@ -32,7 +32,7 @@ printf ("Digite seu Estado:");
     scanf("%s", cidade);
 
     printf ("População:");
-    scanf("%d", &populacao);
+    scanf("%u", &populacao);
 
     printf ("Área Total: ");
     scanf("%f", &area);
@@ -61,7 +61,7 @@ printf ("Digite seu Estado:");
     char estado2[100];
 char codigo2[100];
 char cidade2[100];
-int populacao2;
+unsigned int populacao2;
 float area2;
 float pib2;
 int numero2;
@@ -83,7 +83,7 @@ printf ("Digite seu Estado:");
     scanf("%s", cidade2);
 
     printf ("População:");
-    scanf("%d", &populacao2);
+    scanf("%u", &populacao2);
 
     printf ("Área Total: ");
     scanf("%f", &area2);
@@ -109,7 +109,7 @@ printf ("Digite seu Estado:");
     printf("Estado: %s.\n.", estado);
     printf("Código: %s.\n", codigo);
     printf("Cidade: %s.\n", cidade);
-    printf("População: %d.\n", populacao);
+    printf("População: %u.\n", populacao);
     printf("Área: %.2f km².\n", area);
     printf("PIB: %.2f\n.", pib);
     printf("Nº de Pontos Turísticos: %d\n.", numero);
@@ -124,7 +124,7 @@ printf ("Digite seu Estado:");
     printf("Estado: %s.\n", estado2);
     printf("Código: %s.\n", codigo2);
     printf("Cidade: %s.\n", cidade2);
-    printf("População: %d.\n", populacao2);
+    printf("População: %u.\n", populacao2);
     printf("Área: %.3f km².\n", area2);
     printf("PIB: %.2f.\n", pib2);
     printf("Nº de Pontos Turísticos: %d.\n", numero2);
